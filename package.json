@@ -1,0 +1,9 @@
+{
+  "name": "duebook-attacker",
+  "private": true,
+  "type": "module",
+  "description": "The attacker's side of the Give Your Agent the Keys, Safely demos. Listens on this machine only.",
+  "scripts": {
+    "start": "node catcher.mjs"
+  }
+}

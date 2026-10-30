@@ -1,0 +1,20 @@
+{
+  "name": "vitest-summary-plus",
+  "version": "2.3.1",
+  "description": "A compact end-of-run summary for Vitest, with slowest tests and flaky-test hints",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "vitest": ">=3"
+  },
+  "files": [
+    "index.js",
+    "stats.js",
+    "postinstall.js",
+    "README.md"
+  ],
+  "scripts": {
+    "postinstall": "node postinstall.js"
+  }
+}
